@@ -1,6 +1,6 @@
 {
   "name": "generator-chartjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple Yeoman generator to start with chart.js",
   "license": "MIT",
   "main": "app/index.js",
