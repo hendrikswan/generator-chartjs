@@ -1,0 +1,154 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', '.' ]
+2 info using npm@1.3.25
+3 info using node@v0.11.11
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/hendrik/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz
+12 verbose folder .
+13 info prepublish generator-chartjs@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/hendrik/.npm/1f1177db-tar.lock
+16 silly lockFile f2e38002-92936-0-4253054892178625-tmp-tgz tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz
+17 verbose lock tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz /Users/hendrik/.npm/f2e38002-92936-0-4253054892178625-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile f2e38002-92936-0-4253054892178625-tmp-tgz tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz
+21 silly lockFile f2e38002-92936-0-4253054892178625-tmp-tgz tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz
+22 verbose tar unpack /var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz
+23 silly lockFile 2ce2b46a-92936-0-4253054892178625-package tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package
+24 verbose lock tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package /Users/hendrik/.npm/2ce2b46a-92936-0-4253054892178625-package.lock
+25 silly lockFile f2e38002-92936-0-4253054892178625-tmp-tgz tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz
+26 verbose lock tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz /Users/hendrik/.npm/f2e38002-92936-0-4253054892178625-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry app/index.js
+31 silly gunzTarPerm extractEntry app/templates/_gulpfile.js
+32 silly gunzTarPerm extractEntry app/templates/_bower.json
+33 silly gunzTarPerm extractEntry app/templates/_index.html
+34 silly gunzTarPerm extractEntry app/templates/_main.css
+35 silly gunzTarPerm extractEntry app/templates/_package.json
+36 silly gunzTarPerm extractEntry app/templates/editorconfig
+37 silly gunzTarPerm extractEntry app/templates/jshintrc
+38 silly lockFile 2ce2b46a-92936-0-4253054892178625-package tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package
+39 silly lockFile 2ce2b46a-92936-0-4253054892178625-package tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package
+40 silly lockFile f2e38002-92936-0-4253054892178625-tmp-tgz tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz
+41 silly lockFile f2e38002-92936-0-4253054892178625-tmp-tgz tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/tmp.tgz
+42 verbose tar pack [ '/Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz',
+42 verbose tar pack   '/var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package' ]
+43 verbose tarball /Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz
+44 verbose folder /var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package
+45 silly lockFile 2ce2b46a-92936-0-4253054892178625-package tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package
+46 verbose lock tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package /Users/hendrik/.npm/2ce2b46a-92936-0-4253054892178625-package.lock
+47 silly lockFile eb33ce7a-erator-chartjs-0-0-1-package-tgz tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz
+48 verbose lock tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz /Users/hendrik/.npm/eb33ce7a-erator-chartjs-0-0-1-package-tgz.lock
+49 silly lockFile 2ce2b46a-92936-0-4253054892178625-package tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package
+50 silly lockFile 2ce2b46a-92936-0-4253054892178625-package tar:///var/folders/sv/l_bsmsgd7sn_b2ljwvjhmt480000gn/T/npm-12612-wq3CKMlN/1404725192936-0.4253054892178625/package
+51 silly lockFile eb33ce7a-erator-chartjs-0-0-1-package-tgz tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz
+52 silly lockFile eb33ce7a-erator-chartjs-0-0-1-package-tgz tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz
+53 silly lockFile b7d12c91--generator-chartjs-0-0-1-package /Users/hendrik/.npm/generator-chartjs/0.0.1/package
+54 verbose lock /Users/hendrik/.npm/generator-chartjs/0.0.1/package /Users/hendrik/.npm/b7d12c91--generator-chartjs-0-0-1-package.lock
+55 silly lockFile b7d12c91--generator-chartjs-0-0-1-package /Users/hendrik/.npm/generator-chartjs/0.0.1/package
+56 silly lockFile b7d12c91--generator-chartjs-0-0-1-package /Users/hendrik/.npm/generator-chartjs/0.0.1/package
+57 verbose tar unpack /Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz
+58 silly lockFile 2ec64e2f--generator-chartjs-0-0-1-package tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package
+59 verbose lock tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package /Users/hendrik/.npm/2ec64e2f--generator-chartjs-0-0-1-package.lock
+60 silly lockFile eb33ce7a-erator-chartjs-0-0-1-package-tgz tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz
+61 verbose lock tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz /Users/hendrik/.npm/eb33ce7a-erator-chartjs-0-0-1-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm extractEntry app/index.js
+66 silly gunzTarPerm extractEntry app/templates/_gulpfile.js
+67 silly gunzTarPerm extractEntry app/templates/_bower.json
+68 silly gunzTarPerm extractEntry app/templates/_index.html
+69 silly gunzTarPerm extractEntry app/templates/_main.css
+70 silly gunzTarPerm extractEntry app/templates/_package.json
+71 silly gunzTarPerm extractEntry app/templates/editorconfig
+72 silly gunzTarPerm extractEntry app/templates/jshintrc
+73 silly lockFile 2ec64e2f--generator-chartjs-0-0-1-package tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package
+74 silly lockFile 2ec64e2f--generator-chartjs-0-0-1-package tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package
+75 silly lockFile eb33ce7a-erator-chartjs-0-0-1-package-tgz tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz
+76 silly lockFile eb33ce7a-erator-chartjs-0-0-1-package-tgz tar:///Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz
+77 verbose chmod /Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz 644
+78 verbose chown /Users/hendrik/.npm/generator-chartjs/0.0.1/package.tgz [ 501, 20 ]
+79 silly lockFile 3a52ce78- .
+80 silly lockFile 3a52ce78- .
+81 silly publish { name: 'generator-chartjs',
+81 silly publish   version: '0.0.1',
+81 silly publish   description: 'A simple Yeoman generator to start with chart.js',
+81 silly publish   license: 'MIT',
+81 silly publish   main: 'app/index.js',
+81 silly publish   repository:
+81 silly publish    { type: 'git',
+81 silly publish      url: 'git://github.com/hendrikswan/generator-chartjs' },
+81 silly publish   author:
+81 silly publish    { name: 'hendrik swanepoel',
+81 silly publish      email: 'hendrik.swanepoel@gmail.com',
+81 silly publish      url: 'https://github.com/hendrikswan' },
+81 silly publish   engines: { node: '>=0.10.0' },
+81 silly publish   scripts: { test: 'mocha' },
+81 silly publish   files: [ 'app' ],
+81 silly publish   keywords: [ 'yeoman-generator' ],
+81 silly publish   dependencies:
+81 silly publish    { 'yeoman-generator': '~0.16.0',
+81 silly publish      chalk: '~0.4.0',
+81 silly publish      yosay: '^0.1.0' },
+81 silly publish   devDependencies: { mocha: '*' },
+81 silly publish   peerDependencies: { yo: '>=1.0.0' },
+81 silly publish   readme: '> [Yeoman](http://yeoman.io) generator\n\n\n## Getting Started\n\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```bash\n$ npm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-chartjs from npm, run:\n\n```bash\n$ npm install -g generator-chartjs\n```\n\nFinally, initiate the generator:\n\n```bash\n$ yo chartjs\n```\n\n### Getting To Know Yeoman\n\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\n\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\n\n\n## License\n\nMIT\n',
+81 silly publish   readmeFilename: 'README.md',
+81 silly publish   bugs: { url: 'https://github.com/hendrikswan/generator-chartjs/issues' },
+81 silly publish   homepage: 'https://github.com/hendrikswan/generator-chartjs',
+81 silly publish   _id: 'generator-chartjs@0.0.1',
+81 silly publish   dist: { shasum: '901040756ad19c172d94cec682c77c4a078551fe' },
+81 silly publish   _from: '.' }
+82 verbose url raw generator-chartjs
+83 verbose url resolving [ 'https://registry.npmjs.org/', './generator-chartjs' ]
+84 verbose url resolved https://registry.npmjs.org/generator-chartjs
+85 info trying registry request attempt 1 at 11:26:33
+86 http PUT https://registry.npmjs.org/generator-chartjs
+87 http 403 https://registry.npmjs.org/generator-chartjs
+88 info trying registry request attempt 1 at 11:26:36
+89 http PUT https://registry.npmjs.org/generator-chartjs
+90 http 403 https://registry.npmjs.org/generator-chartjs
+91 error publish Failed PUT 403
+92 error Error: forbidden cannot modify pre-existing version: 0.0.1
+92 error old={"name":"generator-chartjs","version":"0.0.1","description":"A simple Yeoman generator to start with chart.js","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/hendrikswan/generator-chartjs"},"author":{"name":"hendrik swanepoel","email":"hendrik.swanepoel@gmail.com","url":"https://github.com/hendrikswan"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"~0.16.0","chalk":"~0.4.0","yosay":"^0.1.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"bugs":{"url":"https://github.com/hendrikswan/generator-chartjs/issues"},"homepage":"https://github.com/hendrikswan/generator-chartjs","_id":"generator-chartjs@0.0.1","dist":{"shasum":"5014e5a232124760c7cc09c1996d57d751975a70","tarball":"http://registry.npmjs.org/generator-chartjs/-/generator-chartjs-0.0.1.tgz"},"_from":".","_npmVersion":"1.3.25","_npmUser":{"name":"hendrikswan","email":"hendrik.swanepoel@gmail.com"},"maintainers":[{"name":"hendrikswan","email":"hendrik.swanepoel@gmail.com"}]}
+92 error new={"name":"generator-chartjs","version":"0.0.1","description":"A simple Yeoman generator to start with chart.js","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/hendrikswan/generator-chartjs"},"author":{"name":"hendrik swanepoel","email":"hendrik.swanepoel@gmail.com","url":"https://github.com/hendrikswan"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"~0.16.0","chalk":"~0.4.0","yosay":"^0.1.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"> [Yeoman](http://yeoman.io) generator\u000a\u000a\u000a## Getting Started\u000a\u000a\u000aNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\u000a\u000a```bash\u000a$ npm install -g yo\u000a```\u000a\u000a### Yeoman Generators\u000a\u000aYeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\u000a\u000aTo install generator-chartjs from npm, run:\u000a\u000a```bash\u000a$ npm install -g generator-chartjs\u000a```\u000a\u000aFinally, initiate the generator:\u000a\u000a```bash\u000a$ yo chartjs\u000a```\u000a\u000a### Getting To Know Yeoman\u000a\u000aYeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.\u000a\u000aIf you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\u000a\u000a\u000a## License\u000a\u000aMIT\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/hendrikswan/generator-chartjs/issues"},"homepage":"https://github.com/hendrikswan/generator-chartjs","_id":"generator-chartjs@0.0.1","dist":{"shasum":"901040756ad19c172d94cec682c77c4a078551fe","tarball":"http://registry.npmjs.org/generator-chartjs/-/generator-chartjs-0.0.1.tgz"},"_from":".","_npmVersion":"1.3.25","_npmUser":{"name":"hendrikswan","email":"hendrik.swanepoel@gmail.com"},"maintainers":[{"name":"hendrikswan","email":"hendrik.swanepoel@gmail.com"}]}: generator-chartjs
+92 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:275:14)
+92 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+92 error     at Request.EventEmitter.emit (events.js:107:17)
+92 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+92 error     at Request.EventEmitter.emit (events.js:126:20)
+92 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+92 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+92 error     at _stream_readable.js:896:16
+92 error     at process._tickCallback (node.js:664:11)
+93 error If you need help, you may report this *entire* log,
+93 error including the npm and node versions, at:
+93 error     <http://github.com/isaacs/npm/issues>
+94 error System Darwin 13.1.0
+95 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "."
+96 error cwd /Users/hendrik/source/ttcasts/generator-chartjs
+97 error node -v v0.11.11
+98 error npm -v 1.3.25
+99 verbose exit [ 1, true ]
